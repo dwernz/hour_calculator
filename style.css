@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f2f8;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.calc-container {
+    border: 1px solid black;
+    margin: 15px auto;
+    padding: 25px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    background-color: #f4f4f4;
+}
+
+label {
+    margin: 5px auto;
+    font-size: 22px;
+}
+
+input {
+    width: 150px;
+    font-size: 24px;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type=time] {
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 15px;
+    border-radius: 8px;
+    margin: 25px auto 0;
+    width: 150px;
+    height: 90px;
+    border: none;
+    background-color: #4169e1;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#reset {
+    background-color: #ed4337;
+}
+
+#time-list {
+    list-style-type: none;
+    margin: 30px auto;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#time-list li {
+    padding: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin: 25px auto 0px;
+}
