@@ -29,7 +29,7 @@ label {
 }
 
 input {
-    width: 150px;
+    width: 175px;
     font-size: 24px;
     padding: 15px;
     margin: 0 auto;
@@ -53,7 +53,7 @@ button {
     padding: 15px;
     border-radius: 8px;
     margin: 25px auto 0;
-    width: 150px;
+    width: 175px;
     height: 90px;
     border: none;
     background-color: #4169e1;
@@ -81,4 +81,9 @@ button {
 h2 {
     text-align: center;
     margin: 25px auto 0px;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 15px;
 }
